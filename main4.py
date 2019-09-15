@@ -1,10 +1,11 @@
-#77
-x = -8
+#28
+a = int(input("1in andam: "))
+b = int(input("2rd andam: "))
+c = int(input("3rd andam: "))
+d = int(input("haytarar: "))
 
-while x < 8:
-    if x > 3:
-        print("f(x) =", x ** 2 + 4 * x ** 8)
+if b == a * d and c == b * d:
+    print('true')
 
-    else:
-        print("f(x) =", 0)
-    x = x + 3
+else:
+    print('false')

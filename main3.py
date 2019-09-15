@@ -1,7 +1,11 @@
-#74
-x = -3.8
+#27
+a = int(input("1in andam: "))
+b = int(input("2rd andam: "))
+c = int(input("3rd andam: "))
+d = int(input("haytarar: "))
 
-while x <= 5.4:
-    y = 2**(x + 4)
-    print(x, y)
-    x = x + 0.2
+if b == a + d and c == b + d:
+    print('true')
+
+else:
+    print('false')

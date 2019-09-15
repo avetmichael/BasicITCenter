@@ -1,9 +1,7 @@
-#71
+#7
 import math
+x = int(input("mutqagreq x: "))
+y = int(input("mutqagreq y: "))
 
-x = 2.4
+print("f(x, y) =", ((x**2 + y**2)**5 + 4)**7 + math.sin(math.cos(x + y)))
 
-while x <= 7.6:
-    y = math.tan(2*x + x**2)
-    print(x, y)
-    x = x + 0.2

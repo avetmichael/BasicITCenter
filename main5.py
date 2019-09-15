@@ -1,13 +1,22 @@
-#79
-import math
+#29
+a = int(input("mutqagreq a: "))
+b = int(input("mutqagreq b: "))
+c = int(input("mutqagreq c: "))
 
-x = -4
+if a < b and b < c:
+    print(a, b, c)
 
-while x < 5:
+elif a < c and c < b:
+    print(a, c, b)
 
-    if x > 1:
-        print("f(x) =", math.log(x, 4))
+elif b < a and a < c:
+    print(b, a, c)
 
-    else:
-        print("f(x) =", -9)
-    x = x + 1
+elif b < c and c < a:
+    print(b, c, a)
+
+elif c < a and a < b:
+    print(c, a, b)
+
+elif c < b and b < a:
+    print(c, b, a)

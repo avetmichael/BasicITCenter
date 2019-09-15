@@ -1,9 +1,8 @@
-#81
+#75
 import math
+x = -math.pi
 
-x = -7.5
-
-while x < 8.3:
-    y = math.log(x**2 + 4, 3)
+while x <= math.pi:
+    y = math.pow(math.sin(x), 2) + math.cos(x)
     print(x, y)
-    x = x + 0.3
+    x = x + math.pi / 8

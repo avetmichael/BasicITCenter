@@ -1,7 +1,14 @@
-#73
-x = 7.5
+#26
+a = int(input("mutqagreq a: "))
+b = int(input("mutqagreq b: "))
+c = int(input("mutqagreq c: "))
 
-while x < 12.5:
-    y = (x + 1)**2
-    print(x, y)
-    x = x + 0.2
+if a % 2 == 0 or b % 2 == 0 or c % 2 == 0:
+    print(1)
+
+else:
+    print(2)
+
+
+
+
